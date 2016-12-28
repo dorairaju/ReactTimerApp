@@ -58,7 +58,6 @@ var Countdown = React.createClass({
       } else {
         return <CountdownForm onSetCountdown={this.handleSetCountdown}/>
       }
-
     };
 
     return (
