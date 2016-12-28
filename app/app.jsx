@@ -6,7 +6,8 @@ var Timer = require('Timer');
 var Countdown = require('Countdown');
 
 //Load foundation
-require('style!css!foundation-sites/dist/css/foundation.min.css');
+//I have loaded the below file in webpack
+//require('style!css!foundation-sites/dist/css/foundation.min.css');
 $(document).foundation();
 
 //App.css
